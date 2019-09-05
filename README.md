@@ -1,2 +1,2 @@
 # SheCodes
-A humble attempt at solving miniature version of world problems.
+A humble attempt at solving miniature versions of world problems.
