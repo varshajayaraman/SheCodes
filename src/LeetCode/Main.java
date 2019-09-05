@@ -20,5 +20,7 @@ public class Main{
         System.out.println("Please enter sum target: ");
         int target = sc.nextInt();
         E1_TwoSum.E1_TwoSum(array, target);
+
+
     }
 }
