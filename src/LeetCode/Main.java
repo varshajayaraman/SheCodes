@@ -21,14 +21,16 @@ public class Main{
 //        System.out.println("You have entered: "+ Arrays.toString(array));
 //        System.out.println("Please enter sum target: ");
 //        int target = sc.nextInt();
-//        E1_TwoSum.E1_TwoSum(array, target);
+        int [] array = {3,3};
+        int target = 6;
+        E1_TwoSum.E1_TwoSum(array, target);
 
 
 //        System.out.println("Enter num to reverse");
 //        int x = sc.nextInt();
-        int x=1534236469;
-        System.out.println(x);
-        int f = E7_ReverseInteger.reverse(x);
-        System.out.println(f);
+//        int x=1534236469;
+//        System.out.println(x);
+//        int f = E7_ReverseInteger.reverse(x);
+//        System.out.println(f);
     }
 }
