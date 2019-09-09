@@ -4,6 +4,7 @@ import LeetCode.E7_ReverseInteger;
 import LeetCode.E9_PalindromeNumber;
 import LeetCode.E13_RomanToInteger;
 import LeetCode.E14_LongestCommonPrefix;
+import LeetCode.E20_ValidParantheses;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -44,8 +45,12 @@ public class Main{
 //        int ans = E13_RomanToInteger.findEquiv(s);
 //        System.out.println(ans);
 
-        String[] r = {"dog", "dog", "dog"};
-        String ans = E14_LongestCommonPrefix.longestCommonPrefix(r);
-        System.out.println(ans);
+//        String[] r = {"dog", "dog", "dog"};
+//        String ans = E14_LongestCommonPrefix.longestCommonPrefix(r);
+//        System.out.println(ans);
+
+        String s="{[]}";
+        Boolean f = E20_ValidParantheses.isValid(s);
+        System.out.println(f);
     }
 }
