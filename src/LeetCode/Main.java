@@ -9,6 +9,7 @@ import LeetCode.E21_MergeTwoSortedLists;
 import LeetCode.ListNode;
 import LeetCode.E26_RemoveDuplicatesFromSortedArray;
 import LeetCode.E27_RemoveElement;
+import LeetCode.E28_ImplementStrStr;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -75,8 +76,13 @@ public class Main{
 //        int x = E26_RemoveDuplicatesFromSortedArray.removeDuplicates(nums);
 //        System.out.println(x);
 
-        int[] nums={1};
-        int x = E27_RemoveElement.removeElement(nums, 1);
+//        int[] nums={1};
+//        int x = E27_RemoveElement.removeElement(nums, 1);
+//        System.out.println(x);
+
+        String s = "bbbbababbbaabbba";
+        String f = "abb";
+        int x = E28_ImplementStrStr.strStr(s,f);
         System.out.println(x);
     }
 }
