@@ -2,6 +2,7 @@ package LeetCode;
 import LeetCode.E1_TwoSum;
 import LeetCode.E7_ReverseInteger;
 import LeetCode.E9_PalindromeNumber;
+import LeetCode.E13_RomanToInteger;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -34,8 +35,12 @@ public class Main{
 //        System.out.println(f);
 
 
-        int num = 22222;
-        boolean ans = E9_PalindromeNumber.findPalindrome(num);
-        System.out.println("Ans: "+ans);
+//        int num = 22222;
+//        boolean ans = E9_PalindromeNumber.findPalindrome(num);
+//        System.out.println("Ans: "+ans);
+
+        String s ="VII";
+        int ans = E13_RomanToInteger.findEquiv(s);
+        System.out.println(ans);
     }
 }
