@@ -3,6 +3,7 @@ import LeetCode.E1_TwoSum;
 import LeetCode.E7_ReverseInteger;
 import LeetCode.E9_PalindromeNumber;
 import LeetCode.E13_RomanToInteger;
+import LeetCode.E14_LongestCommonPrefix;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -39,8 +40,12 @@ public class Main{
 //        boolean ans = E9_PalindromeNumber.findPalindrome(num);
 //        System.out.println("Ans: "+ans);
 
-        String s ="VII";
-        int ans = E13_RomanToInteger.findEquiv(s);
+//        String s ="VII";
+//        int ans = E13_RomanToInteger.findEquiv(s);
+//        System.out.println(ans);
+
+        String[] r = {"dog", "dog", "dog"};
+        String ans = E14_LongestCommonPrefix.longestCommonPrefix(r);
         System.out.println(ans);
     }
 }
