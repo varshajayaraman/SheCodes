@@ -8,6 +8,7 @@ import LeetCode.E20_ValidParantheses;
 import LeetCode.E21_MergeTwoSortedLists;
 import LeetCode.ListNode;
 import LeetCode.E26_RemoveDuplicatesFromSortedArray;
+import LeetCode.E27_RemoveElement;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -70,8 +71,12 @@ public class Main{
 //        E21_MergeTwoSortedLists.printList(f);
        // System.out.println(f);
 
-        int [] nums = {};
-        int x = E26_RemoveDuplicatesFromSortedArray.removeDuplicates(nums);
+//        int [] nums = {};
+//        int x = E26_RemoveDuplicatesFromSortedArray.removeDuplicates(nums);
+//        System.out.println(x);
+
+        int[] nums={1};
+        int x = E27_RemoveElement.removeElement(nums, 1);
         System.out.println(x);
     }
 }
