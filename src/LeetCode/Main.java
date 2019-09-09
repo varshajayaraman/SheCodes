@@ -7,6 +7,7 @@ import LeetCode.E14_LongestCommonPrefix;
 import LeetCode.E20_ValidParantheses;
 import LeetCode.E21_MergeTwoSortedLists;
 import LeetCode.ListNode;
+import LeetCode.E26_RemoveDuplicatesFromSortedArray;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -55,18 +56,22 @@ public class Main{
 //        Boolean f = E20_ValidParantheses.isValid(s);
 //        System.out.println(f);
 
-        ListNode l1 = new ListNode(1);
-        l1.next = new ListNode(2);
-        //l1 = l1.next;
-        l1.next.next = new ListNode(4);
-
-        ListNode l2 = new ListNode(1);
-        l2.next = new ListNode(3);
-        //l2 = l2.next;
-        l2.next.next = new ListNode(4);
-
-        ListNode f = E21_MergeTwoSortedLists.mergeTwoLists(l1, l2);
-        E21_MergeTwoSortedLists.printList(f);;
+//        ListNode l1 = new ListNode(1);
+//        l1.next = new ListNode(2);
+//        //l1 = l1.next;
+//        l1.next.next = new ListNode(4);
+//
+//        ListNode l2 = new ListNode(1);
+//        l2.next = new ListNode(3);
+//        //l2 = l2.next;
+//        l2.next.next = new ListNode(4);
+//
+//        ListNode f = E21_MergeTwoSortedLists.mergeTwoLists(l1, l2);
+//        E21_MergeTwoSortedLists.printList(f);
        // System.out.println(f);
+
+        int [] nums = {};
+        int x = E26_RemoveDuplicatesFromSortedArray.removeDuplicates(nums);
+        System.out.println(x);
     }
 }
