@@ -5,6 +5,8 @@ import LeetCode.E9_PalindromeNumber;
 import LeetCode.E13_RomanToInteger;
 import LeetCode.E14_LongestCommonPrefix;
 import LeetCode.E20_ValidParantheses;
+import LeetCode.E21_MergeTwoSortedLists;
+import LeetCode.ListNode;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -49,8 +51,22 @@ public class Main{
 //        String ans = E14_LongestCommonPrefix.longestCommonPrefix(r);
 //        System.out.println(ans);
 
-        String s="{[]}";
-        Boolean f = E20_ValidParantheses.isValid(s);
-        System.out.println(f);
+//        String s="{[]}";
+//        Boolean f = E20_ValidParantheses.isValid(s);
+//        System.out.println(f);
+
+        ListNode l1 = new ListNode(1);
+        l1.next = new ListNode(2);
+        l1 = l1.next;
+        l1.next = new ListNode(4);
+
+        ListNode l2 = new ListNode(1);
+        l2.next = new ListNode(3);
+        l2 = l2.next;
+        l2.next = new ListNode(4);
+
+        ListNode f = E21_MergeTwoSortedLists.mergeTwoLists(l1, l2);
+        E21_MergeTwoSortedLists.printList(f);;
+       // System.out.println(f);
     }
 }
