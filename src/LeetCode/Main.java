@@ -80,9 +80,13 @@ public class Main{
 //        int x = E27_RemoveElement.removeElement(nums, 1);
 //        System.out.println(x);
 
-        String s = "bbbbababbbaabbba";
-        String f = "abb";
-        int x = E28_ImplementStrStr.strStr(s,f);
-        System.out.println(x);
+//        String s = "bbbbababbbaabbba";
+//        String f = "abb";
+//        int x = E28_ImplementStrStr.strStr(s,f);
+//        System.out.println(x);
+
+        int[] nums = {1}; //,3,5,6};
+        int t = -5;
+        System.out.println(E35_SearchInsertPosition.searchInsert(nums, t));
     }
 }
