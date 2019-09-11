@@ -11,6 +11,9 @@ import LeetCode.E26_RemoveDuplicatesFromSortedArray;
 import LeetCode.E27_RemoveElement;
 import LeetCode.E28_ImplementStrStr;
 import  LeetCode.E38_CountAndSay;
+import LeetCode.E665_NonDecreasingArray;
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -91,6 +94,11 @@ public class Main{
 //        System.out.println(E35_SearchInsertPosition.searchInsert(nums, t));
 
 
-        System.out.println(E38_CountAndSay.countAndSay(10));
+//        System.out.println(E38_CountAndSay.countAndSay(10));
+
+        int[] nums = {2,3,3,2,4};
+        System.out.println(E665_NonDecreasingArray.checkPossibility(nums));
+
+
     }
 }
