@@ -10,6 +10,7 @@ import LeetCode.ListNode;
 import LeetCode.E26_RemoveDuplicatesFromSortedArray;
 import LeetCode.E27_RemoveElement;
 import LeetCode.E28_ImplementStrStr;
+import  LeetCode.E38_CountAndSay;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -85,8 +86,11 @@ public class Main{
 //        int x = E28_ImplementStrStr.strStr(s,f);
 //        System.out.println(x);
 
-        int[] nums = {1}; //,3,5,6};
-        int t = -5;
-        System.out.println(E35_SearchInsertPosition.searchInsert(nums, t));
+//        int[] nums = {1}; //,3,5,6};
+//        int t = -5;
+//        System.out.println(E35_SearchInsertPosition.searchInsert(nums, t));
+
+
+        System.out.println(E38_CountAndSay.countAndSay(10));
     }
 }
