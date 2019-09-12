@@ -14,6 +14,7 @@ import  LeetCode.E38_CountAndSay;
 import LeetCode.E665_NonDecreasingArray;
 import LeetCode.E414_ThirdMaximumNumber;
 import LeetCode.E859_BuddyStrings;
+import LeetCode.E204_CountPrimes;
 import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
 import java.util.Arrays;
@@ -104,9 +105,12 @@ public class Main{
 //        int[] nums = {1,-2147483648, 2};
 //        System.out.println(E414_ThirdMaximumNumber.thirdMax(nums));
 
-        String A = "acb";
-        String B = "abc";
-        System.out.println(E859_BuddyStrings.buddyStrings(A, B));
+//        String A = "acb";
+//        String B = "abc";
+//        System.out.println(E859_BuddyStrings.buddyStrings(A, B));
+
+        int n = 10;
+        System.out.println(E204_CountPrimes.countPrimes(n));
 
 
     }
