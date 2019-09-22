@@ -15,6 +15,10 @@ import LeetCode.E665_NonDecreasingArray;
 import LeetCode.E414_ThirdMaximumNumber;
 import LeetCode.E859_BuddyStrings;
 import LeetCode.E204_CountPrimes;
+import LeetCode.E532_KDiffPairsInAnArray;
+import LeetCode.E686_RepeatedStringMatch;
+import LeetCode.E581_ShortestUnsortedContinuousSubarray;
+import LeetCode.RemoveDuplicatesFromSortedArray;
 import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
 import java.util.Arrays;
@@ -109,9 +113,22 @@ public class Main{
 //        String B = "abc";
 //        System.out.println(E859_BuddyStrings.buddyStrings(A, B));
 
-        int n = 10;
-        System.out.println(E204_CountPrimes.countPrimes(n));
+//        int n = 10;
+//        System.out.println(E204_CountPrimes.countPrimes(n));
+
+//        int[] nums = {3,1,4,1,5};
+//        int k = 2;
+//        System.out.println(E532_KDiffPairsInAnArray.findPairs(nums, k));
 
 
+//        String A = "abc";
+//        String B = "cabcabca";
+//        System.out.println(E686_RepeatedStringMatch.repeatedStringMatch(A, B));
+
+//        int[] nums = {4, 1, 2};
+//        System.out.println(E581_ShortestUnsortedContinuousSubarray.findUnsortedSubarray(nums));
+
+        int[] arr = {0,0,1,1,1,1,2,3,4};
+        System.out.println(RemoveDuplicatesFromSortedArray.removeDup(arr));
     }
 }
