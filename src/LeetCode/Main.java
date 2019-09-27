@@ -19,6 +19,7 @@ import LeetCode.E532_KDiffPairsInAnArray;
 import LeetCode.E686_RepeatedStringMatch;
 import LeetCode.E581_ShortestUnsortedContinuousSubarray;
 import LeetCode.RemoveDuplicatesFromSortedArray;
+import LeetCode.Hashing_13_GFG;
 import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
 import java.util.Arrays;
@@ -128,7 +129,10 @@ public class Main{
 //        int[] nums = {4, 1, 2};
 //        System.out.println(E581_ShortestUnsortedContinuousSubarray.findUnsortedSubarray(nums));
 
-        int[] arr = {0,0,1,1,1,1,2,3,4};
-        System.out.println(RemoveDuplicatesFromSortedArray.removeDup(arr));
+//        int[] arr = {0,0,1,1,1,1,2,3,4};
+//        System.out.println(RemoveDuplicatesFromSortedArray.removeDup(arr));
+
+        int[] arr = {1, 2, 2, 3, 1};
+        Hashing_13_GFG.solution(arr, arr.length);
     }
 }
