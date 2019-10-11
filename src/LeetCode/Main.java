@@ -134,9 +134,10 @@ public class Main{
 //        int[] arr = {0,0,1,1,1,1,2,3,4};
 //        System.out.println(RemoveDuplicatesFromSortedArray.removeDup(arr));
 
-        int[] arr = {10, 12, 10, 15, -1, 7, 6,
-                5, 4, 2, 1, 1, 1};
+        int[] a = {4, 3, 5, 9, 11};
+        int[] b = {4, 9, 3, 11, 10};
 //        Hashing_13_GFG.solution(arr, arr.length);
-        Hashin_38_GFG.sol(arr, 11);
+//        Hashin_38_GFG.sol(arr, 11);
+        Hashing_22_GFG.sol(a, b);
     }
 }
