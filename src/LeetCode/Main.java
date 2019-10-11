@@ -20,9 +20,11 @@ import LeetCode.E686_RepeatedStringMatch;
 import LeetCode.E581_ShortestUnsortedContinuousSubarray;
 import LeetCode.RemoveDuplicatesFromSortedArray;
 import LeetCode.Hashing_13_GFG;
+import LeetCode.Hashin_38_GFG;
 import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class Main{
@@ -132,7 +134,9 @@ public class Main{
 //        int[] arr = {0,0,1,1,1,1,2,3,4};
 //        System.out.println(RemoveDuplicatesFromSortedArray.removeDup(arr));
 
-        int[] arr = {1, 2, 2, 3, 1};
-        Hashing_13_GFG.solution(arr, arr.length);
+        int[] arr = {10, 12, 10, 15, -1, 7, 6,
+                5, 4, 2, 1, 1, 1};
+//        Hashing_13_GFG.solution(arr, arr.length);
+        Hashin_38_GFG.sol(arr, 11);
     }
 }
