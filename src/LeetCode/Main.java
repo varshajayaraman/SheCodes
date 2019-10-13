@@ -141,6 +141,7 @@ public class Main{
 //        Hashing_22_GFG.sol(a, b);
  //       Hashin_62_GFG.solve(a);
 //        Hashin_37_GFG.solve(a);
-        String_6_GFG.solve("123abc");
+//        String_6_GFG.solve("123abc");
+        Counting_Valleys.sol(12, "UDDDUUDDUUUD");
     }
 }
