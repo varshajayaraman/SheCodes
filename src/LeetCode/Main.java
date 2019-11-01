@@ -143,6 +143,8 @@ public class Main{
 //        Hashin_37_GFG.solve(a);
 //        String_6_GFG.solve("123abc");
 //        Counting_Valleys.sol(12, "UDDDUUDDUUUD");
-        Jumping_On_The_Clouds.sol(a);
+//        Jumping_On_The_Clouds.sol(a);
+        long n = 1000000000000L;
+        Repeated_String.sol("a", n);
     }
 }
