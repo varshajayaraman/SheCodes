@@ -22,10 +22,9 @@ import LeetCode.RemoveDuplicatesFromSortedArray;
 import LeetCode.Hashing_13_GFG;
 import LeetCode.Hashin_38_GFG;
 import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
+import LeetCode.MinimumOpsForAnagrams_Twitter;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main{
     public static void main(String[] args){
@@ -134,7 +133,7 @@ public class Main{
 //        int[] arr = {0,0,1,1,1,1,2,3,4};
 //        System.out.println(RemoveDuplicatesFromSortedArray.removeDup(arr));
 
-        int[] a = {0,0,1,0,0,1,0};
+//        int[] a = {0,0,1,0,0,1,0};
 //        int[] b = {4, 9, 3, 11, 10};
 //        Hashing_13_GFG.solution(arr, arr.length);
 //        Hashin_38_GFG.sol(arr, 11);
@@ -144,7 +143,11 @@ public class Main{
 //        String_6_GFG.solve("123abc");
 //        Counting_Valleys.sol(12, "UDDDUUDDUUUD");
 //        Jumping_On_The_Clouds.sol(a);
-        long n = 1000000000000L;
-        Repeated_String.sol("a", n);
+//        long n = 1000000000000L;
+//        Repeated_String.sol("a", n);
+
+        String[] a={"a", "jk","abb","mn","abc"};
+        String[] b={"bb", "kj", "bbc","op","def"};
+        MinimumOpsForAnagrams_Twitter.wrapper(Arrays.asList(a), Arrays.asList(b));
     }
 }
